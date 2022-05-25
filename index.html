@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>High Card Low Card</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="title">
+        <span class="overline">High Card</span>
+        <span class="underline">Low Card</span>
+      </h1>
+    </header>
+
+    <main>
+      <h3 class="main-msg">Let's play high card low card!</h3>
+      <button class="draw-btn">Draw Card</button>
+
+      <div class="cpu-card invisible"></div>
+      <p class="draw-msg invisible"></p>
+
+      <div class="guess-cards invisible">
+        <button class="high-btn">Higher</button>
+        <button class="low-btn">Lower</button>
+      </div>
+
+      <div class="player-card invisible"></div>
+      <p class="end-message invisible"></p>
+      <button class="play-again-btn invisible">Play Again</button>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
